@@ -5,6 +5,7 @@ from tests.tools.config.http import HTTPClientTestConfig
 from tests.tools.config.kafka import KafkaClientTestConfig
 from tests.tools.config.grpc import GRPCServerTestConfig
 from tests.tools.config.http import HTTPServerTestConfig
+from tests.tools.config.postgres import PostgresClientTestConfig
 
 class TestSettings(BaseSettings):
     """
@@ -30,6 +31,8 @@ class TestSettings(BaseSettings):
 
     mock_http_server: HTTPServerTestConfig
     mock_grpc_server: GRPCServerTestConfig
+
+    operations_postgres_client: PostgresClientTestConfig
 
     operations_processing_wait_timeout: float
     """
