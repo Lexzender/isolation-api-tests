@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "id": "4e8ddebd-0ae5-4759-aadf-36098bf142b7",
+      "pin": "2345",
+      "cvv": "333",
+      "type": "CARD_TYPE_VIRTUAL",
+      "status": "CARD_STATUS_ACTIVE",
+      "accountId": "ad995534-aff7-404b-ae51-2f7c2e5cd044",
+      "cardNumber": "7771111111111111",
+      "cardHolder": "IVAN PETROV",
+      "expiryDate": "2028-12-31",
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_VISA"
+    },
+    {
+      "id": "99286de8-7e9f-422a-9002-52d5e9be32e9",
+      "pin": "1234",
+      "cvv": "111",
+      "type": "CARD_TYPE_PHYSICAL",
+      "status": "CARD_STATUS_ACTIVE",
+      "accountId": "ad995534-aff7-404b-ae51-2f7c2e5cd044",
+      "cardNumber": "6600000000000004",
+      "cardHolder": "IVAN PETROV",
+      "expiryDate": "2028-08-30",
+      "paymentSystem": "CARD_PAYMENT_SYSTEM_MASTERCARD"
+    }
+  ]
+}
+
+
