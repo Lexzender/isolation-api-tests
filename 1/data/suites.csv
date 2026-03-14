@@ -1,0 +1,20 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11","[gRPC][Postgres] Filter by account id. Completed purchase operation","tests.suites.grpc","Sat Mar 14 15:46:24 UTC 2026","failed","Sat Mar 14 15:46:24 UTC 2026","TestOperationsGRPC","test_operations","",""
+"","556","[HTTP][Kafka] Operation events. In progress purchase operation","tests.suites.http","Sat Mar 14 15:46:24 UTC 2026","passed","Sat Mar 14 15:46:25 UTC 2026","TestOperationsHTTP","test_operations","",""
+"","37","[HTTP] Get account details. User with active debit card account","tests.suites.http","Sat Mar 14 15:46:24 UTC 2026","passed","Sat Mar 14 15:46:24 UTC 2026","TestGatewayHTTP","test_gateway","",""
+"","23","[gRPC] Get user details. User with active credit card account","tests.suites.grpc","Sat Mar 14 15:46:23 UTC 2026","passed","Sat Mar 14 15:46:23 UTC 2026","TestGatewayGRPC","test_gateway","",""
+"","516","[HTTP][Kafka] Operation events. Completed purchase operation","tests.suites.http","Sat Mar 14 15:46:25 UTC 2026","passed","Sat Mar 14 15:46:25 UTC 2026","TestOperationsHTTP","test_operations","",""
+"
+        Сценарий:
+        Пользователь с активным кредитным счётом
+        запрашивает агрегированные данные через gateway-service.
+
+        Управляющая переменная теста — сценарий.
+        Все данные внешнего мира выбираются через него.
+        ","76","[HTTP] Get user details. User with active credit card account","tests.suites.http","Sat Mar 14 15:46:24 UTC 2026","passed","Sat Mar 14 15:46:24 UTC 2026","TestGatewayHTTP","test_gateway","",""
+"","560","[gRPC][Kafka] Operation events. In progress purchase operation","tests.suites.grpc","Sat Mar 14 15:46:23 UTC 2026","failed","Sat Mar 14 15:46:23 UTC 2026","TestOperationsGRPC","test_operations","",""
+"","15","[HTTP][Postgres] Filter by card id. In progress purchase operation","tests.suites.http","Sat Mar 14 15:46:25 UTC 2026","passed","Sat Mar 14 15:46:25 UTC 2026","TestOperationsHTTP","test_operations","",""
+"","13","[HTTP][Postgres] Filter by account id. Completed purchase operation","tests.suites.http","Sat Mar 14 15:46:26 UTC 2026","passed","Sat Mar 14 15:46:26 UTC 2026","TestOperationsHTTP","test_operations","",""
+"","21","[gRPC] Get account details. User with active debit card account","tests.suites.grpc","Sat Mar 14 15:46:23 UTC 2026","passed","Sat Mar 14 15:46:23 UTC 2026","TestGatewayGRPC","test_gateway","",""
+"","518","[gRPC][Kafka] Operation events. Completed purchase operation","tests.suites.grpc","Sat Mar 14 15:46:24 UTC 2026","failed","Sat Mar 14 15:46:24 UTC 2026","TestOperationsGRPC","test_operations","",""
+"","29","[gRPC][Postgres] Filter by card id. In progress purchase operation","tests.suites.grpc","Sat Mar 14 15:46:24 UTC 2026","failed","Sat Mar 14 15:46:24 UTC 2026","TestOperationsGRPC","test_operations","",""
